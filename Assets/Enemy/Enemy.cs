@@ -31,8 +31,6 @@ public class Enemy : MonoBehaviour
         if (other.gameObject.tag == "Player")
             Debug.Log("I hate everyone!");
 
-
-
     }
 
     private void FixedUpdate()
